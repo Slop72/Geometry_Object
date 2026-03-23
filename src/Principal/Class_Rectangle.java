@@ -1,20 +1,20 @@
 package Principal;
 
-public class Class_Rectangle 
+public class Class_Rectangle extends GeometryObject 
 {
 	//Hecho por: Emiliano Lira
 	private double width;
     private double height;
 
-    public Rectangle() {}
+    public Class_Rectangle() {}
 
-    public Rectangle(double width, double height) 
+    public Class_Rectangle(double width, double height) 
     {
         this.width = width;
         this.height = height;
     }
 
-    public Rectangle(double width, double height, String color, boolean filled) 
+    public Class_Rectangle(double width, double height, String color, boolean filled) 
     {
         super(color, filled);
         this.width = width;
