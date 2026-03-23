@@ -3,6 +3,7 @@ import java.util.Date;
 
 public class GeometryObject 
 {
+	//Hecho por: Sebas Alonso
 	private String color = "white";
     private boolean filled;
     private Date dateCreated;
